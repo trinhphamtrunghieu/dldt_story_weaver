@@ -29,12 +29,12 @@ pip install -q wandb
 ## Dữ liệu
 
 Cần bộ dữ liệu **TBC-Bench** do tác giả StoryWeaver công bố, với cấu trúc:
-https://drive.google.com/drive/folders/1_osD_YstIP0vl6H9OOI2lDHeaC9ojtWm?usp=sharing
 ```
 TBC_Bench/
 ├── train-folder/<Pororo_the_Little_Penguin | Frozen>/{image, caption, character, style.txt}
 └── eval-plot/{eval_train/each/<phim>, eval_new_story/<phim>}
 ```
+Dataset có thể tải ở: https://drive.google.com/drive/folders/1_osD_YstIP0vl6H9OOI2lDHeaC9ojtWm?usp=sharing
 
 - **Kaggle:** tạo dataset từ TBC-Bench rồi *Add Input*. Notebook tự dò thư mục chứa `train-folder` dưới `/kaggle/input`.
 - **Colab:** đặt bộ dữ liệu tại `MyDrive/DLDT/TBC_Bench`; ô đầu tiên gắn Drive và sao chép về `/root/TBC_Bench`.
